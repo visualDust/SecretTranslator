@@ -1,9 +1,7 @@
-package studio.visualdust.translator;
-import studio.visualdust.translator.res.Resource;
+package studio.visualdust.product;
+import studio.visualdust.product.translator.TranslatorGUI;
 
 import javax.swing.*;
-import java.awt.*;
-import java.awt.image.BufferedImage;
 
 public class TranslatorLauncher {
     public static void main(String[] args) {
@@ -23,7 +21,7 @@ public class TranslatorLauncher {
         tGUI.setSize(950,300);
         try {
             Thread.sleep(300);
-            for(int i=300;i>=250;i--)
+            for(int i=400;i>=350;i--)
             {
                 Thread.sleep(5);
                 tGUI.setSize(650+i, i);
@@ -31,6 +29,6 @@ public class TranslatorLauncher {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        tGUI.setSize(900, 250);
+//        tGUI.setSize(900, 250);
     }
 }

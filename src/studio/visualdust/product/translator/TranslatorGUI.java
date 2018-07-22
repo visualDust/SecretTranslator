@@ -1,6 +1,8 @@
-package studio.visualdust.translator;
+package studio.visualdust.product.translator;
 
-import studio.visualdust.translator.res.Resource;
+import studio.visualdust.product.DocumentChangedListener;
+import studio.visualdust.product.Translator;
+import studio.visualdust.product.translator.res.Resource;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
@@ -13,7 +15,7 @@ import java.net.MalformedURLException;
 import java.net.URISyntaxException;
 import java.nio.charset.Charset;
 
-import static studio.visualdust.translator.Numbers.map;
+import static studio.visualdust.product.translator.Numbers.map;
 
 public class TranslatorGUI extends JFrame {
     private JPanel panel1;
@@ -41,7 +43,7 @@ public class TranslatorGUI extends JFrame {
             e.printStackTrace();
         }
         panel1.setVisible(true);
-        setResizable(false);
+//        setResizable(false);
         setLocationRelativeTo(null);
         translateButton.addActionListener(new PressDownActionListener());
         pasteButton.addActionListener(new PasteActionListener());

@@ -1,4 +1,4 @@
-package studio.visualdust.translator;
+package studio.visualdust.product;
 
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;

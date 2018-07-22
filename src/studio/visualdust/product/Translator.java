@@ -1,4 +1,4 @@
-package studio.visualdust.translator;
+package studio.visualdust.product;
 
 public class Translator {
     private String password;
