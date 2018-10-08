@@ -1,8 +1,9 @@
 
+﻿# 我可能不记得你，但我记得你的U盘
 # 最近一次COMMIT
 
 COMMIT的时间
-2018年 07月 22日 星期日 15:16:55 CST
+Mon, Oct  8, 2018  8:21:59 PM
 ---
 > 是谁COMMIT
 
@@ -20,52 +21,28 @@ https://github.com/visualDust/SecretTranslator.git
 ---
 > COMMIT的细节
 
-位于分支 master
-您的分支与上游分支 'origin/master' 一致。
+On branch master
+Your branch is up to date with 'origin/master'.
 
-要提交的变更：
-  （使用 "git reset HEAD <文件>..." 以取消暂存）
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
 
-	重命名：   src/studio/visualdust/translator/DocumentChangedListener.java -> src/studio/visualdust/product/DocumentChangedListener.java
-	重命名：   src/studio/visualdust/translator/Translator.java -> src/studio/visualdust/product/Translator.java
-	重命名：   src/studio/visualdust/translator/TranslatorLauncher.java -> src/studio/visualdust/product/TranslatorLauncher.java
-	重命名：   src/studio/visualdust/translator/TranslatorGUI.form -> src/studio/visualdust/product/translator/TranslatorGUI.form
-	重命名：   src/studio/visualdust/translator/TranslatorGUI.java -> src/studio/visualdust/product/translator/TranslatorGUI.java
-	重命名：   src/studio/visualdust/translator/res/Dictionary.dic -> src/studio/visualdust/product/translator/res/Dictionary.dic
-	重命名：   src/studio/visualdust/translator/res/EN_STD.dic -> src/studio/visualdust/product/translator/res/EN_STD.dic
-	重命名：   src/studio/visualdust/translator/res/ICONIMG.png -> src/studio/visualdust/product/translator/res/ICONIMG.png
-	重命名：   src/studio/visualdust/translator/res/Resource.java -> src/studio/visualdust/product/translator/res/Resource.java
-	重命名：   src/studio/visualdust/translator/res/pinyin.dict -> src/studio/visualdust/product/translator/res/pinyin.dict
-	删除：     src/studio/visualdust/translator/Main.java
+	modified:   README.md
+	deleted:    commit.sh
 
-尚未暂存以备提交的变更：
-  （使用 "git add <文件>..." 更新要提交的内容）
-  （使用 "git checkout -- <文件>..." 丢弃工作区的改动）
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
 
-	修改：     README.md
-	修改：     commit.sh
-	修改：     src/META-INF/MANIFEST.MF
-	修改：     src/studio/visualdust/product/DocumentChangedListener.java
-	修改：     src/studio/visualdust/product/Translator.java
-	修改：     src/studio/visualdust/product/TranslatorLauncher.java
-	修改：     src/studio/visualdust/product/translator/TranslatorGUI.form
-	修改：     src/studio/visualdust/product/translator/TranslatorGUI.java
-	修改：     src/studio/visualdust/product/translator/res/Resource.java
+	RM
 
-未跟踪的文件:
-  （使用 "git add <文件>..." 以包含要提交的内容）
-
-	.idea/
-	SecretTranslator.iml
-	out/artifacts/Translator/
-	out/production/SecretTranslator/
-
+no changes added to commit (use "git add" and/or "git commit -a")
 ---
 > 当前文件列表
 
 ```
 .:
-commit.sh  out	README.md  SecretTranslator.iml  src  Translator.iml
+out  README.md	RM  SecretTranslator.iml  src  Translator.iml
 
 ./out:
 artifacts  production
@@ -95,12 +72,10 @@ uiDesigner
 core
 
 ./out/production/SecretTranslator/com/intellij/uiDesigner/core:
-AbstractLayout.class	 Spacer.class
-DimensionInfo.class	 SupportCode.class
-GridConstraints.class	 SupportCode$TextWithMnemonic.class
-GridLayoutManager.class  Util.class
-HorizontalInfo.class	 VerticalInfo.class
-LayoutState.class
+AbstractLayout.class	 HorizontalInfo.class		     SupportCode.class
+DimensionInfo.class	 LayoutState.class		     Util.class
+GridConstraints.class	 Spacer.class			     VerticalInfo.class
+GridLayoutManager.class  SupportCode$TextWithMnemonic.class
 
 ./out/production/SecretTranslator/META-INF:
 MANIFEST.MF
@@ -112,22 +87,22 @@ visualdust
 product
 
 ./out/production/SecretTranslator/studio/visualdust/product:
-DocumentChangedListener.class		Translator$CyclicIntRange.class
-translator				TranslatorLauncher.class
-Translator$CharNotFoundException.class	Translator$TranslateEventListener.class
-Translator.class			Translator$TripleIntToIntFunction.class
+DocumentChangedListener.class		Translator$TranslateEventListener.class
+translator				Translator$TripleIntToIntFunction.class
+Translator$CharNotFoundException.class	Translator.class
+Translator$CyclicIntRange.class		TranslatorLauncher.class
 
 ./out/production/SecretTranslator/studio/visualdust/product/translator:
 Numbers.class
 res
-TranslatorGUI.class
 TranslatorGUI$CopyActionListener.class
 TranslatorGUI$PasteActionListener.class
 TranslatorGUI$PressDownActionListener.class
 TranslatorGUI$RuntimeThread.class
-TranslatorGUI$StringChangeListener.class
 TranslatorGUI$StringChangeListener$ClearThread.class
+TranslatorGUI$StringChangeListener.class
 TranslatorGUI$TranslateThread.class
+TranslatorGUI.class
 
 ./out/production/SecretTranslator/studio/visualdust/product/translator/res:
 Dictionary.dic	EN_STD.dic  ICONIMG.png  pinyin.dict  Resource.class
@@ -145,12 +120,10 @@ uiDesigner
 core
 
 ./out/production/Translator/com/intellij/uiDesigner/core:
-AbstractLayout.class	 Spacer.class
-DimensionInfo.class	 SupportCode.class
-GridConstraints.class	 SupportCode$TextWithMnemonic.class
-GridLayoutManager.class  Util.class
-HorizontalInfo.class	 VerticalInfo.class
-LayoutState.class
+AbstractLayout.class	 HorizontalInfo.class		     SupportCode.class
+DimensionInfo.class	 LayoutState.class		     Util.class
+GridConstraints.class	 Spacer.class			     VerticalInfo.class
+GridLayoutManager.class  SupportCode$TextWithMnemonic.class
 
 ./out/production/Translator/META-INF:
 MANIFEST.MF
@@ -167,19 +140,19 @@ Main.class
 Numbers.class
 res
 Translator$CharNotFoundException.class
-Translator.class
 Translator$CyclicIntRange.class
-TranslatorGUI.class
+Translator$TranslateEventListener.class
+Translator$TripleIntToIntFunction.class
+Translator.class
 TranslatorGUI$CopyActionListener.class
 TranslatorGUI$PasteActionListener.class
 TranslatorGUI$PressDownActionListener.class
 TranslatorGUI$RuntimeThread.class
-TranslatorGUI$StringChangeListener.class
 TranslatorGUI$StringChangeListener$ClearThread.class
+TranslatorGUI$StringChangeListener.class
 TranslatorGUI$TranslateThread.class
+TranslatorGUI.class
 TranslatorLauncher.class
-Translator$TranslateEventListener.class
-Translator$TripleIntToIntFunction.class
 
 ./out/production/Translator/studio/visualdust/translator/res:
 Dictionary.dic	EN_STD.dic  ICONIMG.png  pinyin.dict  Resource.class
