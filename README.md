@@ -3,7 +3,7 @@
 # 最近一次COMMIT
 
 COMMIT的时间
-Mon, Oct  8, 2018  8:21:59 PM
+Mon, Oct  8, 2018  8:23:13 PM
 ---
 > 是谁COMMIT
 
@@ -22,19 +22,14 @@ https://github.com/visualDust/SecretTranslator.git
 > COMMIT的细节
 
 On branch master
-Your branch is up to date with 'origin/master'.
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
 
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   README.md
-	deleted:    commit.sh
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	RM
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ---
@@ -42,7 +37,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 ```
 .:
-out  README.md	RM  SecretTranslator.iml  src  Translator.iml
+LICENSE  out  README.md  RM  SecretTranslator.iml  src	Translator.iml
 
 ./out:
 artifacts  production
